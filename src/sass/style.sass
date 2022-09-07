@@ -170,8 +170,11 @@ $color-grey: #E2E2E2
             width: 188px
             height: 188px
             border-radius: 150px
+        &_white
+            background: #FFFFFF
 
 .second-section
+    position: relative
     min-height: 700px
     &__container
         padding-top: 32px
@@ -179,10 +182,28 @@ $color-grey: #E2E2E2
         margin-bottom: 40px
     &__card-box
         display: inline-flex
+        margin-bottom: 25px
     &__cards-item
         margin-right: 30px
         &:last-child
             margin-right: 0px
+    &__icons-box
+        display: flex
+        justify-content: space-evenly
+    &__icons-item
+        &:last-child
+            margin-right: 0px
+    &__first-elipse
+        position: absolute
+        top: 80px
+        right:100px
+        z-index: -1
+    &__second-elipse
+        position: absolute
+        top: 364px
+        left: 100px
+        z-index: -1
+
 
 .cards-item
     position: relative

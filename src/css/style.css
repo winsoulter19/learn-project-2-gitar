@@ -565,8 +565,12 @@ table {
   height: 188px;
   border-radius: 150px;
 }
+.elipse__subtract_white {
+  background: #FFFFFF;
+}
 
 .second-section {
+  position: relative;
   min-height: 700px;
 }
 .second-section__container {
@@ -577,12 +581,32 @@ table {
 }
 .second-section__card-box {
   display: inline-flex;
+  margin-bottom: 25px;
 }
 .second-section__cards-item {
   margin-right: 30px;
 }
 .second-section__cards-item:last-child {
   margin-right: 0px;
+}
+.second-section__icons-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.second-section__icons-item:last-child {
+  margin-right: 0px;
+}
+.second-section__first-elipse {
+  position: absolute;
+  top: 80px;
+  right: 100px;
+  z-index: -1;
+}
+.second-section__second-elipse {
+  position: absolute;
+  top: 364px;
+  left: 100px;
+  z-index: -1;
 }
 
 .cards-item {
