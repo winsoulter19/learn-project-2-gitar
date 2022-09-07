@@ -428,6 +428,7 @@ html {
 .nav-menu__list-item {
   margin-right: 64px;
   font-size: 18px;
+  font-weight: bold;
 }
 .nav-menu__list-item:last-child {
   margin-right: 0;
@@ -544,6 +545,7 @@ html {
   border: none;
   color: white;
   font-size: 18px;
+  font-weight: bold;
 }
 .buttons__main-btn:last-child {
   margin-right: 0px;
