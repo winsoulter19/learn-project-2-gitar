@@ -701,4 +701,13 @@ table {
   position: absolute;
   left: -250px;
   bottom: 0px;
+}
+.footer__container {
+  min-height: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer__title {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
