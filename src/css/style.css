@@ -368,6 +368,7 @@ table {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+  position: relative;
 }
 
 .main-section {
@@ -599,13 +600,13 @@ table {
 .second-section__first-elipse {
   position: absolute;
   top: 80px;
-  right: 100px;
+  right: -80px;
   z-index: -1;
 }
 .second-section__second-elipse {
   position: absolute;
   top: 364px;
-  left: 100px;
+  left: -80px;
   z-index: -1;
 }
 
@@ -655,5 +656,43 @@ table {
 }
 
 .thrid-section {
+  position: relative;
   min-height: 640px;
+  background: #F0F0F0;
+  z-index: 0;
+  overflow: hidden;
+}
+.thrid-section__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 167px;
+  padding-top: 46px;
+}
+.thrid-section__right-wrapper {
+  max-width: 480px;
+}
+.thrid-section__right-title {
+  margin-bottom: 20px;
+}
+.thrid-section__text {
+  margin-bottom: 30px;
+}
+.thrid-section__first-elipse {
+  position: absolute;
+  top: 140px;
+  left: 110px;
+  z-index: -1;
+}
+.thrid-section__figure {
+  position: absolute;
+  top: 249px;
+  left: 15px;
+  z-index: -1;
+}
+.thrid-section__second-elipse {
+  position: absolute;
+  top: -120px;
+  right: -120px;
 }/*# sourceMappingURL=style.css.map */

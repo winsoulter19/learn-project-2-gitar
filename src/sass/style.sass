@@ -11,6 +11,7 @@ $color-grey: #E2E2E2
 .container
     max-width: 1140px
     margin: 0 auto
+    position: relative
 .main-section
     position: relative
     min-height: 800px
@@ -196,12 +197,12 @@ $color-grey: #E2E2E2
     &__first-elipse
         position: absolute
         top: 80px
-        right:100px
+        right:-80px
         z-index: -1
     &__second-elipse
         position: absolute
         top: 364px
-        left: 100px
+        left: -80px
         z-index: -1
 
 
@@ -240,7 +241,36 @@ $color-grey: #E2E2E2
         font-size: 18px
         span
             font-size: 48px
-
 .thrid-section
+    position: relative
     min-height: 640px
-    
+    background: #F0F0F0
+    z-index: 0
+    overflow: hidden 
+    &__container
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: space-between
+        padding-left: 167px
+        padding-top: 46px
+    &__right-wrapper
+        max-width: 480px
+    &__right-title
+        margin-bottom: 20px
+    &__text
+        margin-bottom: 30px
+    &__first-elipse
+        position: absolute
+        top: 140px
+        left: 110px
+        z-index: -1
+    &__figure
+        position: absolute
+        top: 249px
+        left: 15px
+        z-index: -1
+    &__second-elipse
+        position: absolute
+        top: -120px
+        right: -120px             
