@@ -695,4 +695,10 @@ table {
   position: absolute;
   top: -120px;
   right: -120px;
+}
+
+.footer__img {
+  position: absolute;
+  left: -250px;
+  bottom: 0px;
 }/*# sourceMappingURL=style.css.map */
