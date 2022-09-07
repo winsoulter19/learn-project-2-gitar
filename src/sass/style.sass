@@ -1,6 +1,22 @@
 @import "normalize.scss"
 @import "reset.scss"
 
+@font-face
+    font-family: "Montserrat"
+    src: url('../fonts/Montserrat-Regular.ttf')
+    font-weight: regular
+    font-style: normal
+
+@font-face
+    font-family: "Montserrat"
+    src: url('../fonts/Montserrat-SemiBold.ttf')
+    font-weight: bold
+    font-style: normal
+
+html
+    font-family: "Montserrat"
+    font-weight: regular
+
 $color-blue: #5290EA
 $color-orange: #F28B64
 $color-grey: #E2E2E2
@@ -121,6 +137,7 @@ $color-grey: #E2E2E2
 .title
     font-size: 72px
     position: relative
+    font-weight: bold
     &__hr
         width: 65px
         position: absolute
@@ -224,6 +241,7 @@ $color-grey: #E2E2E2
         position: absolute
         top: 144px
         right: -30px
+        font-weight: bold
 
 .cards-item_orange
     background: $color-orange
@@ -241,6 +259,7 @@ $color-grey: #E2E2E2
         font-size: 18px
         span
             font-size: 48px
+            font-weight: bold
 .thrid-section
     position: relative
     min-height: 640px
