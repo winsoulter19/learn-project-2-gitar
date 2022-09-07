@@ -652,4 +652,8 @@ table {
 }
 .icons-item__text span {
   font-size: 48px;
+}
+
+.thrid-section {
+  min-height: 640px;
 }/*# sourceMappingURL=style.css.map */
