@@ -206,6 +206,7 @@ $color-grey: #E2E2E2
         margin-bottom: 40px
     &__card-box
         display: inline-flex
+        justify-content: center
         margin-bottom: 25px
     &__cards-item
         margin-right: 30px
@@ -337,9 +338,20 @@ $color-grey: #E2E2E2
             height: 200px
     .rigth-wrapper
         right: 20px
-    .card-item
+    .second-section
+        &__card-box
+            display: flex
+            justify-content: center
+    .cards-item
         width: 300px
         height: 300px
+        margin-right: 10px
+        &__img
+            height: 270px
+        &__text
+            top: 120px
+            font-size: 30px
+
 
 @media (max-width: 991px)
     .container

@@ -607,6 +607,7 @@ html {
 }
 .second-section__card-box {
   display: inline-flex;
+  justify-content: center;
   margin-bottom: 25px;
 }
 .second-section__cards-item {
@@ -772,9 +773,21 @@ html {
   .rigth-wrapper {
     right: 20px;
   }
-  .card-item {
+  .second-section__card-box {
+    display: flex;
+    justify-content: center;
+  }
+  .cards-item {
     width: 300px;
     height: 300px;
+    margin-right: 10px;
+  }
+  .cards-item__img {
+    height: 270px;
+  }
+  .cards-item__text {
+    top: 120px;
+    font-size: 30px;
   }
 }
 @media (max-width: 991px) {
