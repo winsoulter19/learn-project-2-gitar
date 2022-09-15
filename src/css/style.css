@@ -773,6 +773,9 @@ html {
   .rigth-wrapper {
     right: 20px;
   }
+  .second-section {
+    min-height: 600px;
+  }
   .second-section__card-box {
     display: flex;
     justify-content: center;
@@ -786,13 +789,88 @@ html {
     height: 270px;
   }
   .cards-item__text {
+    left: 60px;
     top: 120px;
     font-size: 30px;
+  }
+  .thrid-section__container {
+    padding-left: 40px;
+  }
+  .thrid-section__container__right-wrapper {
+    max-height: 450px;
   }
 }
 @media (max-width: 991px) {
   .container {
     width: 750px;
+  }
+  .main-section {
+    min-height: 500px;
+  }
+  .main-section__first-elipse {
+    top: 70px;
+  }
+  .left-wrapper img {
+    width: 550px;
+    position: relative;
+    z-index: 1;
+  }
+  .left-wrapper__rectangle-blue {
+    position: absolute;
+    z-index: 0;
+    width: 380px;
+    height: 130px;
+  }
+  .left-wrapper__rectangle-orange {
+    position: absolute;
+    z-index: 0;
+    width: 400px;
+    height: 130px;
+  }
+  .left-wrapper__rectangle-grey {
+    position: absolute;
+    z-index: 0;
+    width: 400px;
+    height: 130px;
+    left: -10px;
+    top: 197px;
+  }
+  .rigth-wrapper {
+    width: 300px;
+    top: 70px;
+    right: 45px;
+  }
+  .rigth-wrapper__title {
+    font-size: 60px;
+  }
+  .rigth-wrapper__text {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .buttons__main-btn {
+    font-size: 14px;
+    margin-right: 10px;
+    width: 160px;
+    height: 50px;
+  }
+  .buttons__icon-btn {
+    font-size: 14px;
+  }
+  .elipse {
+    width: 150px;
+    height: 150px;
+  }
+  .elipse__subtract {
+    width: 110px;
+    height: 110px;
+  }
+  .elipse__subtract_big {
+    width: 170px;
+    height: 170px;
+  }
+  .elipse_dig {
+    width: 250px;
+    height: 250px;
   }
 }
 @media (max-width: 767px) {
