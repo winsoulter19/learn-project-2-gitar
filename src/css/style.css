@@ -810,6 +810,12 @@ html {
   .main-section__first-elipse {
     top: 70px;
   }
+  .main-section__second-elipse {
+    top: 400px;
+  }
+  .title {
+    font-size: 60px;
+  }
   .left-wrapper img {
     width: 550px;
     position: relative;
@@ -871,6 +877,75 @@ html {
   .elipse_dig {
     width: 250px;
     height: 250px;
+  }
+  .second-section {
+    min-height: 450px;
+  }
+  .second-section__container {
+    padding-top: 20px;
+  }
+  .second-section__card-box {
+    margin-bottom: 10px;
+  }
+  .second-section__first-elipse {
+    top: 262px;
+    left: 0;
+  }
+  .second-section__title {
+    margin-bottom: 25px;
+  }
+  .second-section__second-elipse {
+    top: 62px;
+    left: 600px;
+  }
+  .cards-item {
+    width: 220px;
+    height: 220px;
+    margin-right: 10px;
+  }
+  .cards-item__img {
+    height: 200px;
+  }
+  .cards-item__text {
+    font-size: 22px;
+    left: 30px;
+    top: 90px;
+  }
+  .icons-item__text {
+    font-size: 14px;
+  }
+  .icons-item__img {
+    width: 50px;
+  }
+  .icons-item span {
+    font-size: 32px;
+  }
+  .thrid-section {
+    min-height: 510px;
+  }
+  .thrid-section__container {
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .thrid-section__left-title {
+    display: none;
+  }
+  .thrid-section__right-wrapper {
+    max-width: 700px;
+  }
+  .thrid-section__right-title {
+    margin-bottom: 10px;
+  }
+  .title__hr_top {
+    bottom: 60px;
+  }
+  .footer {
+    min-height: 210px;
+  }
+  .footer__img {
+    width: 520px;
+    height: 190px;
   }
 }
 @media (max-width: 767px) {
