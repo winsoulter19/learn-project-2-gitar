@@ -484,6 +484,53 @@ $color-grey: #E2E2E2
 @media (max-width: 767px)
     .container
         width: 540px
+    .nav-menu
+        position: fixed
+        right: -100%
+        top: 0px
+        width: 50%
+        height: 100vh
+        background: $color-blue
+        z-index: 20
+        transition: 0.4s all
+        &__list
+            display: flex
+            flex-direction: column
+            justify-content: space-evenly
+            align-items: center
+            height: 100%
+        &__list-item
+            margin-right: 0
+            font-size: 20px
+    .nav-menu_active
+        right: 0
+    .hamburger
+        width: 30px
+        position: absolute
+        top: 40px
+        right: 30px
+        // mb - 4px + span heigth - 2px = height: 14px
+        height: 14px
+        span
+            height: 2px
+            width: 100%
+            display: block
+            background: black
+            margin-bottom: 4px
+            transition: 1s all
+            &:last-child
+                margin-bottom: 0
+    .hamburger_active
+        span
+            margin-bottom: -2px
+            &:nth-child(1)
+                // translateY - ровняет позиционирование при нажатии на Гамбургер
+                transform: translateY(3px) rotate(-45deg)
+            &:nth-child(2)
+                display: none
+            &:nth-child(3)
+                transform: translateY(3px) rotate(45deg)
+
 
 @media (max-width: 572px)
     .container
