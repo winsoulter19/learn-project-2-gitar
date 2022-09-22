@@ -599,7 +599,6 @@ $color-grey: #E2E2E2
     .second-section
         min-height: 350px
         &__container
-        &__container
             padding-top: 10px
         &__card-box
             margin-bottom: 30px
@@ -780,7 +779,7 @@ $color-grey: #E2E2E2
         width: 400px
         height: 220px
         img
-            height: 200px
+            height: 100%
         &__text
             font-size: 20px
             left: 8px
@@ -823,3 +822,30 @@ $color-grey: #E2E2E2
             display: none
         &__title
             margin-bottom: 10px 
+
+@media (max-width: 472px)
+    .container
+        width: 100%
+    
+    .cards-item
+        width: 400px
+        height: 200px
+        img
+            height: 160px
+        &__text
+            font-size: 20px
+            left: -22px
+            top: 80px
+    .footer
+        min-height: 120px
+        &__wraper
+            position: absolute
+            left: 125px
+        &__container
+            min-height: 120px
+        &__img
+            display: none
+        &__title
+            margin-bottom: 10px 
+    
+

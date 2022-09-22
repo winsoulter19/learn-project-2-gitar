@@ -1330,7 +1330,7 @@ html {
     height: 220px;
   }
   .cards-item img {
-    height: 200px;
+    height: 100%;
   }
   .cards-item__text {
     font-size: 20px;
@@ -1382,6 +1382,39 @@ html {
   .footer__wraper {
     position: absolute;
     left: 70px;
+  }
+  .footer__container {
+    min-height: 120px;
+  }
+  .footer__img {
+    display: none;
+  }
+  .footer__title {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 472px) {
+  .container {
+    width: 100%;
+  }
+  .cards-item {
+    width: 400px;
+    height: 200px;
+  }
+  .cards-item img {
+    height: 160px;
+  }
+  .cards-item__text {
+    font-size: 20px;
+    left: -22px;
+    top: 80px;
+  }
+  .footer {
+    min-height: 120px;
+  }
+  .footer__wraper {
+    position: absolute;
+    left: 125px;
   }
   .footer__container {
     min-height: 120px;
