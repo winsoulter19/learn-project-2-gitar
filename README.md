@@ -17,6 +17,7 @@
   - HTML
   - CSS
   - SCSS (SAAS)
+  - Flexbox
   - JavaScript (отображение меню)
 
 - **Инструменты**:
